@@ -1,0 +1,84 @@
+
+/**banner part**/
+.banner_part{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100% !important;
+}
+.btn_1{
+    background-color: #FF4933;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 4px !important;
+    font-size: 21px;
+}
+.banner_text{
+    padding-top: 10%;
+    color: #337DFF;
+}
+.banner_text h6{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    width: 100%;
+    display: inline-block;
+} 
+.banner_text p{
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 5%;   
+    width: 100%;
+}
+.banner_text h1{
+    font-size: 44px;
+}
+
+/**partner area**/
+.trust-item li{
+    text-align: left;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 10px;
+}
+ul{
+list-style-type: none;
+}
+ul li p{
+    text-align: left !important;
+    font-size: 15px;
+    font-weight: 400;
+}
+.partner-area{
+    box-shadow: 
+       inset 0 -3em 3em rgba(0,0,0,0.1), 
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+/**feature **/
+.our-features{
+    margin-top: 4%;
+}
+
+.our-features .card{
+    margin-left: 30px;
+}
+.our-features .features-headline{
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    color: #337DFF;
+}
+.our-features .card-body{
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+.card{
+    box-shadow: 
+       inset 0 -3em 3em rgba(0,0,0,0.1), 
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
