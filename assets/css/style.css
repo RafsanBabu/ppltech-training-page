@@ -35,11 +35,12 @@
 }
 
 /**partner area**/
+
 .trust-item li{
     text-align: left;
    padding-left: 20px;
    padding-right: 20px;
-   padding-top: 10px;
+  padding-top: 10px;
 }
 ul{
 list-style-type: none;
@@ -49,7 +50,8 @@ ul li p{
     font-size: 15px;
     font-weight: 400;
 }
-.partner-area{
+/*.partner-area{
+    margin: 0 30px;
     box-shadow: 
        inset 0 -3em 3em rgba(0,0,0,0.1), 
              0 0  0 2px rgb(255,255,255),
@@ -57,8 +59,15 @@ ul li p{
 }
 
 /**feature **/
+/**.our-features{
+    box-shadow: 
+       inset 0 -3em 3em rgba(0,0,0,0.1), 
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}**/
 .our-features{
-    margin-top: 4%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .our-features .card{
@@ -81,4 +90,56 @@ ul li p{
              0 0  0 2px rgb(255,255,255),
              0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
+.snd-ftr-items{
+    margin-top: 50px !important;
+}
+
+.our-features .card:hover{
+    transition: .5s ease;
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+/**courses item**/
+.courses-part .card:hover .card-body{
+  opacity: 0.3;
+}
+.courses-part .card:hover .card-img-top{
+    opacity: 0.3;
+  }
+
+.courses-part .card:hover .middle{
+  opacity: 1 !important;
+}
+.middle {
+  transition: .8s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.card .middle .text {
+  background-color:  #337DFF;
+  color:white;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.courses-part .card{
+    margin: 30px;
+    height: 20rem;
+    width: 15rem;
+
+}
+.courses-part .card .card-img-top{
+    transition: .8s ease;
+}
+
+
+
+
 
