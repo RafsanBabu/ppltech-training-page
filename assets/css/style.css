@@ -15,7 +15,7 @@
 }
 .banner_text{
     padding-top: 10%;
-    color: #337DFF;
+    color: #00acee;
 }
 .banner_text h6{
     font-size: 16px;
@@ -77,7 +77,7 @@ ul li p{
     text-align: center;
     height: 100px;
     width: 100%;
-    color: #337DFF;
+    color: #00acee;
 }
 .our-features .card-body{
     font-size: 14px;
@@ -140,6 +140,171 @@ ul li p{
 }
 
 
+/** service part here **/
+*{
+    box-sizing: border-box;
+}
+.service-part{
+    height: 450px;
+   /* margin-bottom: 10%;*/
+    background: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tabs{
+    position: absolute;
+    margin-top: 10%;
+    /*top: 291%;*/
+    /*left: 49%;*/
 
+    /*transform: translate(-50%,-50%);*/
+    width: 80%;
+    margin-left: 20px;
+    height: 450px;
+    padding: 30px 20px;
+    background: #f5f5f5;
+    box-shadow: 5px 5px 10px 5px #ccc;
+    overflow: hidden;
+}
+.tab-header {
+    float: left;
+    width: 30%;
+    height: 100%;
+    border-right: 10px solid #ccc;
+    padding: 50px 0px;
+}
 
+.tabs .tab-header >div {
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #888;
+    cursor: pointer;
+    padding-left: 10px;
+}
 
+.tab-header > div:hover,
+.tab-header >div.active{
+    color: #00acee;
+}
+
+.tabs .tab-header div i{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.tabs .tab-content{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+.tabs .tab-content >div >i {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #00acee;
+    color: #FF4933;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+.tabs .tab-content > div {
+    position: absolute;
+    text-align: center;
+    padding: 40px 20px;
+    top: -200%;
+    transition: all 500ms ease-in-out;
+}
+
+.tabs .tab-content > div.active{
+    top: 0px;
+}
+
+.tabs .tab-indicator{
+    position: absolute;
+    width: 5px;
+    height: 50px;
+    background: #FF4933;;
+    left: 30%;
+    top: 80px;
+    transition: all 500ms ease-in-out;
+}
+
+/** contact section **/
+.contact-form-part{
+    margin-top: 15%;
+    background-image: url('../img/contact-background/claudio-schwarz-purzlbaum-_wDZkpybAfY-unsplash.jpg');
+    
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(255, 255, 255, 0.486);
+    background-blend-mode: overlay;
+}
+.contactinfo{
+    margin-left: 10%;
+}
+.contactForm{
+    margin-left: 25%;
+}
+
+.sci{
+    display: flex;
+}
+.sci li{
+    padding: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    color: cornsilk;
+}
+
+.fa-facebook-square:hover{
+    color: #3b5998;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+.fa-twitter:hover{
+    color: #1DA1F2;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+.fa-linkedin-square:hover{
+    color: #0e76a8;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+.fa-youtube-play:hover{
+    color: #FF0000;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+.fa-google-plus-square:hover{
+    color: #db4a39;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+.fa-pinterest-square:hover{
+    color: 	#E60023;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
