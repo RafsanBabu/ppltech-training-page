@@ -1,9 +1,16 @@
+.logo img{
+    height: 60px;
+    width: 60%;
+}
+
+
 
 /**banner part**/
 .banner_part{
     height: 500px;
     background-repeat: no-repeat;
-    background-size: 100% 100% !important;
+    background-size: cover;
+    background-position: center center;
 }
 .btn_1{
     background-color: #FF4933;
@@ -66,12 +73,15 @@ ul li p{
              0.3em 0.3em 1em rgba(0,0,0,0.3);
 }**/
 .our-features{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #F6F2F1;
 }
 
 .our-features .card{
-    margin-left: 30px;
+    margin-left: 50px;
+    height: 20rem;
+    width: 15rem;
 }
 .our-features .features-headline{
     text-align: center;
@@ -141,16 +151,19 @@ ul li p{
 .courses-part .card .card-img-top{
     transition: .8s ease;
 }
-
+.courses-part{
+    background-color: white;
+    padding-bottom: 30px;
+}
 
 /** service part here **/
 *{
     box-sizing: border-box;
 }
 .service-part{
-    height: 450px;
+    height: 700px;
    /* margin-bottom: 10%;*/
-    background: white;
+    background: #6f9ace;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .tabs{
@@ -226,7 +239,7 @@ ul li p{
     top: 0px;
 }
 
-.tabs .tab-indicator{
+/*.tabs .tab-indicator{
     position: absolute;
     width: 5px;
     height: 50px;
@@ -234,11 +247,10 @@ ul li p{
     left: 30%;
     top: 80px;
     transition: all 500ms ease-in-out;
-}
+}*/
 
 /** contact section **/
 .contact-form-part{
-    margin-top: 15%;
     background-image: url('../img/contact-background/claudio-schwarz-purzlbaum-_wDZkpybAfY-unsplash.jpg');
     
     background-size: cover;
@@ -259,7 +271,7 @@ ul li p{
     padding-top: 5%;
 }
 .contact-form-part .row{
-    background-color: #00acee;
+    background-color: #8AB0D4;
     background-position: center center;
 }
 .contactForm{
@@ -272,23 +284,23 @@ ul li p{
 }
 input{
     width: 100%;
-    border: 2px solid #888;
-  border-radius: 4px;
+    border: 1px solid #888;
+  border-radius: 1px;
 }
 textarea{
     width: 100%;
-    border: 2px solid #888;
-    border-radius: 4px;
+    border: 1px solid #888;
+    border-radius: 1px;
     height: 80px;
 }
-.contact-button{
+/*.contact-button{
     background-color: #FF4933;
-    color: whitesmoke;
+    color: white;
     text-align: center;
     padding: 5px 20px;
-    border-radius: 4px ;
+    border-radius: 3px ;
     font-size: 15px;
-}
+}*/
 .sci{
     display: flex;
 }
