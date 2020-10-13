@@ -242,14 +242,50 @@ ul li p{
     background-position: center center;
     background-color: rgba(255, 255, 255, 0.486);
     background-blend-mode: overlay;
+    padding-bottom: 2%;
+    padding-top: 2%;
 }
 .contactinfo{
-    margin-left: 10%;
-}
-.contactForm{
-    margin-left: 25%;
+    padding-top: 8%;
 }
 
+.contactinfo .info li{
+    padding: 3%;
+} 
+.info{
+    padding-top: 5%;
+}
+.contact-form-part .row{
+    background-color: #00acee;
+    background-position: center center;
+}
+.contactForm{
+    padding-top: 3%;
+    margin-left: 25%;
+}
+.inputBox{
+    padding: 3%;
+    
+}
+input{
+    width: 100%;
+    border: 2px solid #888;
+  border-radius: 4px;
+}
+textarea{
+    width: 100%;
+    border: 2px solid #888;
+    border-radius: 4px;
+    height: 80px;
+}
+.contact-button{
+    background-color: #FF4933;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 4px ;
+    font-size: 15px;
+}
 .sci{
     display: flex;
 }
@@ -307,4 +343,15 @@ ul li p{
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition:.5s;
+}
+
+/** associate member area**/
+.owl-carousel img {
+
+    max-width:50%;
+    height: 50%;
+    padding: 5%;
+    text-align: center;
+    
+    
 }
