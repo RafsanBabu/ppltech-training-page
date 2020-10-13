@@ -121,6 +121,9 @@ ul li p{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  border: 1px solid #337DFF;
+  border-radius: 4px;
+  
 }
 .card .middle .text {
   background-color:  #337DFF;
