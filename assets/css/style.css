@@ -239,7 +239,7 @@ ul li p{
     top: 0px;
 }
 
-/*.tabs .tab-indicator{
+.tabs .tab-indicator{
     position: absolute;
     width: 5px;
     height: 50px;
@@ -247,7 +247,7 @@ ul li p{
     left: 30%;
     top: 80px;
     transition: all 500ms ease-in-out;
-}*/
+}
 
 /** contact section **/
 .contact-form-part{
