@@ -113,14 +113,17 @@ ul li p{
 
 /**courses item**/
 .courses-part .card:hover .card-body{
-  opacity: 0.3;
+  opacity: 0.1;
+}
+.courses-part .card{
+    cursor: pointer;
 }
 .courses-part .card:hover .card-img-top{
-    opacity: 0.3;
+    opacity: 0.1;
   }
 
 .courses-part .card:hover .middle{
-  opacity: 1 !important;
+  opacity: 2;
 }
 .middle {
   transition: .8s ease;
@@ -133,6 +136,7 @@ ul li p{
   text-align: center;
   border: 1px solid #337DFF;
   border-radius: 4px;
+  cursor: pointer;
   
 }
 .card .middle .text {
@@ -397,7 +401,7 @@ textarea{
 }
 .Team .card{
     border-radius: 5px;
-    box-shadow: 5px 5px 15px #E36C5E;
+    box-shadow: 5px 5px 15px #ccc;
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
@@ -409,7 +413,7 @@ textarea{
     color: #fff;
     border-radius: 5px;
     border: none;
-    box-shadow: 5px 5px 10px #00acee;
+    box-shadow: 5px 5px 10px #ccc;
 }
 .Team .card .fa-facebook:hover{
     color: #3b5998;
