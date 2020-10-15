@@ -41,3 +41,7 @@ $(document).ready(function(){
   $('.stop').on('click',function(){
       owl.trigger('stop.owl.autoplay')
   })
+
+
+
+  $('.carousel').carousel()

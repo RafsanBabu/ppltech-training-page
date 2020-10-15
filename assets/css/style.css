@@ -163,7 +163,7 @@ ul li p{
 .service-part{
     height: 700px;
    /* margin-bottom: 10%;*/
-    background: #6f9ace;
+    background: #F6F2F1;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .tabs{
@@ -187,6 +187,7 @@ ul li p{
     height: 100%;
     border-right: 10px solid #ccc;
     padding: 50px 0px;
+    background-color: #619DC5;
 }
 
 .tabs .tab-header >div {
@@ -194,14 +195,14 @@ ul li p{
     line-height: 50px;
     font-size: 16px;
     font-weight: 600;
-    color: #888;
+    color: black;
     cursor: pointer;
     padding-left: 10px;
 }
 
 .tab-header > div:hover,
 .tab-header >div.active{
-    color: #00acee;
+    color: white;
 }
 
 .tabs .tab-header div i{
@@ -209,10 +210,12 @@ ul li p{
     margin-left: 10px;
     margin-right: 5px;
 }
+
 .tabs .tab-content{
     position: relative;
     height: 100%;
     overflow: hidden;
+    background-color: #94BEDA;
 }
 .tabs .tab-content >div >i {
     display: inline-block;
@@ -273,6 +276,12 @@ ul li p{
 .contact-form-part .row{
     background-color: #8AB0D4;
     background-position: center center;
+}
+.contactForm h2{
+    color: cornsilk;
+}
+.formBox .inputBox span{
+    color: white;
 }
 .contactForm{
     padding-top: 3%;
@@ -370,3 +379,113 @@ textarea{
     
     
 }
+/*Team Section*/
+.Team{
+    margin: 0;
+    padding: 0;
+}
+.Team img{
+    margin-top: -50px;
+    object-fit: cover;
+}
+.Team i{
+    font-size: 26px;
+    color: white;
+}
+.Team p{
+    font-weight: 500;
+}
+.Team .card{
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #E36C5E;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    background-color: #94BEDA;
+}
+
+.Team .card:hover{
+    background:#E36C5E;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #00acee;
+}
+.Team .card .fa-facebook:hover{
+    color: #3b5998;
+}
+.Team .card .fa-instagram:hover{
+    color: #C13584;
+}
+
+.Team .card-body{
+    color: white;
+}
+
+
+/** testimonial **/
+.testimonial-info{
+    margin-top: 50px;
+}
+.testimonial-info h3{
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+.testimonial-info h6{
+    font-weight: 500;
+    font-size: 16px;
+}
+.testimonial-info ul{
+    display: flex;
+    
+}
+.testimonial-info li{
+    width: 30px;
+    height: 30px;
+    background: #262626;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+}
+.testimonial-info li a{
+    color: #fff;
+    padding: 7px 3px;
+}
+.testimonial-info p{
+    margin: 40px 0;
+    color: black;
+    font-size: 18px;
+}
+.testimonial-div{
+    width: 45px;
+    background: #FF4933;
+    height: 2px;
+    position: relative;
+    margin-top: 20px;
+}
+.testimonial-div:after{
+    position: absolute;
+    content: '';
+    width: 30px;
+    background: #FF4933;
+    height: 2px;
+    bottom: 0;
+    top: 5px;
+    bottom: 0;
+    top: 5px;
+}
+.carousel-indicators{
+    bottom: 20px;
+    left: 53%;
+}
+.carousel-indicators li{
+    border-color: #444;
+
+}
+.carousel-indicators .active{
+    background: #FF4933;
+    border-color: #FF4933;
+}
+blockquote:before{content: open-quote;}
+blockquote:after{content: close-quote;)
