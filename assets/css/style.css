@@ -22,7 +22,8 @@
 }
 .banner_text{
     padding-top: 10%;
-    color: #00acee;
+    color: white;
+    font-weight: 700;
 }
 .banner_text h6{
     font-size: 16px;
@@ -140,7 +141,7 @@ ul li p{
   
 }
 .card .middle .text {
-  background-color:  #337DFF;
+  background-color:  #00acee;
   color:white;
   font-size: 16px;
   padding: 10px 20px;
@@ -262,7 +263,7 @@ ul li p{
     
     background-size: cover;
     background-position: center center;
-    background-color: rgba(255, 255, 255, 0.486);
+    /*background-color: rgba(255, 255, 255, 0.486);*/
     background-blend-mode: overlay;
     padding-bottom: 2%;
     padding-top: 2%;
@@ -446,7 +447,7 @@ textarea{
 }
 .testimonial-info li{
     width: 30px;
-    height: 30px;
+    /*height: 30px;*/
     background: #262626;
     border-radius: 50%;
     text-align: center;
@@ -492,4 +493,57 @@ textarea{
     border-color: #FF4933;
 }
 blockquote:before{content: open-quote;}
-blockquote:after{content: close-quote;)
+blockquote:after{content: close-quote;}
+/** featured-category-section **/
+.feature-course-headline h3{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+}
+.citem{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.feature-course-item{
+    margin-top: 30px;
+
+}
+.feature-course-item p{
+    padding:0;
+}
+.category-feature{
+    border-bottom: 2px solid #a9a9a9;
+}
+
+/** blog part **/
+
+.latest-news-area{
+    padding: 2rem 0rem;
+  }
+  
+  .latest-news-area .card-img {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  
+  .latest-news-area .card-title {
+    margin-bottom: 0.3rem;
+  }
+  
+  .latest-news-area .cat {
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  
+  .latest-news-area .fa-users {
+    margin-left: 1rem;
+  }
+  
+  .latest-news-area .card-footer {
+    font-size: 0.8rem;
+  }
+ .headline{
+     margin-left: 20px;
+     margin-bottom: 20px;
+ }
+ 
