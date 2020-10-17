@@ -164,11 +164,11 @@ ul li p{
 }
 
 .courses-part .card{
-    /*margin-right: 50px;*/
+    margin-right: 50px;
     height: 20rem;
     width: 15rem;
-    margin-right: 30px;
-
+    /*margin-right: 30px;*/
+    box-shadow: 1px solid lightslategray;
 }
 .courses-part .card .card-img-top{
     transition: .8s ease;
@@ -176,6 +176,17 @@ ul li p{
 .courses-part{
     background-color: white;
     padding-bottom: 30px;
+}
+.courses-part .card-body{
+    text-align: center;
+    color: #3f4a5b;
+}
+.courses-part .card-body h5{
+    font-weight: 600;
+    font-size: 21px;
+}
+.courses-part .card-body p{
+    font-style: italic;
 }
 
 /** service part here **/
