@@ -539,6 +539,10 @@ blockquote:after{content: close-quote;}
 .latest-news-area{
     padding: 2rem 0rem;
   }
+.latest-news-area .card{
+    height: 35rem;
+    width: 22rem;
+  }
   
   .latest-news-area .card-img {
     border-bottom-left-radius: 0px;
