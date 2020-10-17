@@ -18,12 +18,18 @@
     text-align: center;
     padding: 10px 30px;
     border-radius: 4px !important;
-    font-size: 21px;
+    font-size: 14px;
+    text-shadow: none !important;
+}
+.btn_1:hover{
+    text-decoration: none !important;
+    color: #00acee;
 }
 .banner_text{
     padding-top: 10%;
     color: white;
     font-weight: 700;
+    text-shadow:  2px 2px slategray;
 }
 .banner_text h6{
     font-size: 16px;
@@ -80,7 +86,8 @@ ul li p{
 }
 
 .our-features .card{
-    margin-left: 50px;
+    margin-left: auto;
+    margin-right: 50px;
     height: 20rem;
     width: 15rem;
 }
@@ -91,8 +98,17 @@ ul li p{
     color: #00acee;
 }
 .our-features .card-body{
-    font-size: 14px;
-    line-height: 1.42857143;
+    font-size: 20px;
+    line-height: 1;
+}
+.our-features .card-body h3{
+    display: inline-block;
+    width: 100%;
+    color: #3f4a5b;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
 }
 
 /*.card{
@@ -114,17 +130,17 @@ ul li p{
 
 /**courses item**/
 .courses-part .card:hover .card-body{
-  opacity: 0.1;
+  opacity: 1;
 }
 .courses-part .card{
     cursor: pointer;
 }
 .courses-part .card:hover .card-img-top{
-    opacity: 0.1;
+    opacity: 0;
   }
 
 .courses-part .card:hover .middle{
-  opacity: 2;
+  opacity: 1;
 }
 .middle {
   transition: .8s ease;
@@ -148,9 +164,10 @@ ul li p{
 }
 
 .courses-part .card{
-    margin: 30px;
+    /*margin-right: 50px;*/
     height: 20rem;
     width: 15rem;
+    margin-right: 30px;
 
 }
 .courses-part .card .card-img-top{
@@ -176,10 +193,11 @@ ul li p{
     margin-top: 10%;
     /*top: 291%;*/
     /*left: 49%;*/
+    margin-left: 0%;
 
     /*transform: translate(-50%,-50%);*/
-    width: 80%;
-    margin-left: 20px;
+    width: 85%;
+    /*margin-left: 20px;*/
     height: 450px;
     padding: 30px 20px;
     background: #f5f5f5;
@@ -273,13 +291,14 @@ ul li p{
 }
 
 .contactinfo .info li{
-    padding: 3%;
+    padding: 1%;
 } 
 .info{
     padding-top: 5%;
 }
 .contact-form-part .row{
-    background-color: #8AB0D4;
+    background-color: #00000082;
+    opacity: 1;
     background-position: center center;
 }
 .contactForm h2{
@@ -394,7 +413,7 @@ textarea{
     object-fit: cover;
 }
 .Team i{
-    font-size: 26px;
+    font-size: 20px;
     color: white;
 }
 .Team p{
