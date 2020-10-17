@@ -528,7 +528,13 @@ blockquote:after{content: close-quote;}
 
 }
 .feature-course-item p{
-    padding:0;
+    display: inline-block;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 2.31;
+    color: #393d47;
+    margin: 0;
 }
 .category-feature{
     border-bottom: 2px solid #a9a9a9;
