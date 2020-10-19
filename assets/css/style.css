@@ -1,3 +1,8 @@
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .nav-link{
     padding: 20px;
     margin-left: 20px;
@@ -76,25 +81,14 @@
   }
 /**banner part**/
 .banner_part{
-    height: 500px;
+    width: 100%;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
-/*.btn_1{
-    background-color: #FF4933;
-    color: white;
-    text-align: center;
-    padding: 10px 30px;
-    border-radius: 4px !important;
-    font-size: 14px;
-    text-shadow: none !important;
-}
-.btn_1:hover{
-    text-decoration: none !important;
-    color: #00acee;
-}*/
+
 .btn_1 {
     border-radius: 4px;
     background-color: #FF4933;
@@ -154,22 +148,7 @@
     font-size: 44px;
 }
 
-/**partner area**/
 
-.trust-item li{
-    text-align: left;
-   padding-left: 20px;
-   padding-right: 20px;
-  padding-top: 10px;
-}
-ul{
-list-style-type: none;
-}
-ul li p{
-    text-align: left !important;
-    font-size: 15px;
-    font-weight: 400;
-}
 
 .our-features{
     padding-top: 30px;
@@ -203,21 +182,10 @@ ul li p{
     text-align: center;
 }
 
-/*.card{
-    box-shadow: 
-       inset 0 -3em 3em rgba(0,0,0,0.1), 
-             0 0  0 2px rgb(255,255,255),
-             0.3em 0.3em 1em rgba(0,0,0,0.3);
-}*/
 .snd-ftr-items{
     margin-top: 50px !important;
 }
 
-.our-features .card:hover{
-    transition: .5s ease;
-    transform: scale(1.05);
- box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-}
 
 
 /**courses item**/
@@ -251,7 +219,7 @@ ul li p{
 .card .middle .text {
   background-color:  #00acee;
   color:white;
-  font-size: 16px;
+  font-size: 12px;
   padding: 10px 20px;
 }
 
@@ -511,6 +479,8 @@ textarea{
 .Team{
     margin: 0;
     padding: 0;
+    padding-bottom: 30px;
+    padding-top: 30px;
    
 }
 .Team img{
@@ -717,7 +687,8 @@ section .section-title {
 }
 #footer {
     background: #07092C !important;
-    height: 100;
+    height: 450px !important;
+    margin-bottom: 0 !important;
 }
 #footer h5{
 	padding-left: 10px;
