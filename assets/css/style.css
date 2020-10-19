@@ -1,8 +1,79 @@
+.nav-link{
+    padding: 20px;
+    margin-left: 20px;
+}
+.navbar-nav{
+    padding: 10px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: black !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #00acee !important;
+}
+.dropdown{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.dropdown .dropdown-menu{
+   background-color: #00acee !important;
+}
+.dropdown .dropdown-menu .dropdown-item{
+    color: black;
+    background-color: #00acee;
+    border-bottom: 1px solid #8AB8DA;
+    text-align: center;
+    padding: 4px;
+ }
+ .dropdown .dropdown-menu .dropdown-item:hover{
+     display: block;
+     color: white;
+     transition: all .5s;
+ }
+
 .nav-area{
     position: fixed;
     width: 100%;
     z-index: 1;
 }
+/** nav form btn **/
+.form-inline .btn {
+    border-radius: 4px;
+    background-color: #FF4933;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .form-inline .btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .form-inline .btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .form-inline .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .form-inline .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 /**banner part**/
 .banner_part{
     height: 500px;
@@ -11,7 +82,7 @@
     background-position: center center;
     background-attachment: fixed;
 }
-.btn_1{
+/*.btn_1{
     background-color: #FF4933;
     color: white;
     text-align: center;
@@ -23,7 +94,43 @@
 .btn_1:hover{
     text-decoration: none !important;
     color: #00acee;
-}
+}*/
+.btn_1 {
+    border-radius: 4px;
+    background-color: #FF4933;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .btn_1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn_1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn_1:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn_1:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 .banner_text{
     padding-top: 10%;
     color: white;
@@ -588,9 +695,14 @@ blockquote:after{content: close-quote;}
  .headline{
      margin-left: 20px;
      margin-bottom: 20px;
-     color: #00acee;
+     color: #333;
+     font-size: 21px;
  }
- 
+ .card-body .btn{
+     background-color: #FF4933;
+     color: #FFFFFF;
+ }
+
 
  /** footer section **/
  section {
@@ -604,12 +716,12 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
-    background: #89BFDF !important;
+    background: #07092C !important;
     height: 100;
 }
 #footer h5{
 	padding-left: 10px;
-    border-left: 3px solid #eeeeee;
+    border-left: 3px solid #FF4933;
     padding-bottom: 6px;
     margin-bottom: 20px;
     color:#ffffff;
@@ -626,7 +738,7 @@ section .section-title {
 }
 #footer ul.social li a i {
     margin-right: 5px;
-	font-size:25px;
+	font-size:20px;
 	-webkit-transition: .5s all ease;
 	-moz-transition: .5s all ease;
 	transition: .5s all ease;
