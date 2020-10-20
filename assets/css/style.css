@@ -1,6 +1,11 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+</style>
+
 html,body{
     max-width: 100%;
     overflow-x: hidden;
+    max-height: 100%;
 }
 
 .nav-link{
@@ -81,8 +86,7 @@ html,body{
   }
 /**banner part**/
 .banner_part{
-    width: 100%;
-    height: auto;
+    height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -148,7 +152,22 @@ html,body{
     font-size: 44px;
 }
 
+/**partner area**/
 
+.trust-item li{
+    text-align: left;
+   padding-left: 20px;
+   padding-right: 20px;
+  padding-top: 10px;
+}
+ul{
+list-style-type: none;
+}
+ul li p{
+    text-align: left !important;
+    font-size: 15px;
+    font-weight: 400;
+}
 
 .our-features{
     padding-top: 30px;
@@ -163,10 +182,15 @@ html,body{
     width: 15rem;
 }
 .our-features .features-headline{
+    font-size: 31px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 55px;
+    margin-top: 20px;
     text-align: center;
-    height: 100px;
     width: 100%;
-    color: #00acee;
+    color: #5271a3;
+    font-family: 'Krona One', sans-serif;
 }
 .our-features .card-body{
     font-size: 20px;
@@ -181,14 +205,44 @@ html,body{
     line-height: 30px;
     text-align: center;
 }
-
+/*.card{
+    box-shadow: 
+       inset 0 -3em 3em rgba(0,0,0,0.1), 
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}*/
 .snd-ftr-items{
     margin-top: 50px !important;
 }
 
-
+.our-features .card:hover{
+    transition: all 0.4s ease-out;
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+    background-color: white;
+}
+.our-features .card:hover:after{
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
 
 /**courses item**/
+.courses-part .courses-headline{
+    font-size: 31px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 55px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    color: #5271a3;
+    font-family: 'Krona One', sans-serif;
+
+}
+
+
 .courses-part .card:hover .card-body{
   opacity: 1;
 }
@@ -220,6 +274,7 @@ html,body{
   background-color:  #00acee;
   color:white;
   font-size: 12px;
+  font-weight: 600;
   padding: 10px 20px;
 }
 
@@ -253,25 +308,32 @@ html,body{
 *{
     box-sizing: border-box;
 }
+.service-part .tabs-headline{
+    font-size: 31px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 55px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    color: #5271a3;
+    font-family: 'Krona One', sans-serif;
+}
+
+
 .service-part{
     height: 700px;
-   /* margin-bottom: 10%;*/
     background: #F6F2F1;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .tabs{
     position: absolute;
-    margin-top: 10%;
-    /*top: 291%;*/
-    /*left: 49%;*/
+    margin-top: 8%;
     margin-left: 0%;
-
-    /*transform: translate(-50%,-50%);*/
+    margin-bottom: 0%;
     width: 85%;
-    /*margin-left: 20px;*/
-    height: 450px;
+    height: 500px;
     padding: 30px 20px;
-    background: #f5f5f5;
     box-shadow: 5px 5px 10px 5px #ccc;
     overflow: hidden;
 }
@@ -281,7 +343,8 @@ html,body{
     height: 100%;
     border-right: 10px solid #ccc;
     padding: 50px 0px;
-    background-color: #619DC5;
+    background-color:  #063044eb;
+    border-radius: 10px;
 }
 
 .tabs .tab-header >div {
@@ -309,27 +372,45 @@ html,body{
     position: relative;
     height: 100%;
     overflow: hidden;
-    background-color: #94BEDA;
-}
-.tabs .tab-content >div >i {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background: #00acee;
-    color: #FF4933;
-    font-size: 25px;
-    font-weight: 600;
-    text-align: center;
-    line-height: 50px;
-    border-radius: 50%;
 }
 
-.tabs .tab-content > div {
+.tabs .tab-content img{
+    height: 200px;
+    width: 260px;
+    padding-top: 0 !important;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    
+}
+.tabs .tab-content >div{
+    margin-left: 25% !important;
+    box-sizing: border-box;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    height: 25rem;
+    width: 18rem;
+    background-color: #063044eb;;
+    margin-top: 20px;
+}
+.tabs .tab-content >div i{
+    color: #FF4933; 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tabs .tab-content >div p{
+    color:white;
+   
+}
+.tabs .tab-content >div{
     position: absolute;
     text-align: center;
-    padding: 40px 20px;
+    /*padding: 40px 20px;*/
     top: -200%;
-    transition: all 500ms ease-in-out;
+    /*transition: all 500ms ease-in-out;*/
+}
+.tabs .tab-content >div p{
+    padding-left: 10px;
+    text-align: start;
 }
 
 .tabs .tab-content > div.active{
@@ -398,14 +479,7 @@ textarea{
     border-radius: 1px;
     height: 80px;
 }
-/*.contact-button{
-    background-color: #FF4933;
-    color: white;
-    text-align: center;
-    padding: 5px 20px;
-    border-radius: 3px ;
-    font-size: 15px;
-}*/
+
 .sci{
     display: flex;
 }
@@ -476,13 +550,29 @@ textarea{
     
 }
 /*Team Section*/
+
+
+
 .Team{
     margin: 0;
     padding: 0;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
    
 }
+
+.Team .team-headline{
+    font-size: 31px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 55px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    color: #5271a3;
+    font-family: 'Krona One', sans-serif;
+}
+
 .Team img{
     margin-top: -50px;
     object-fit: cover;
@@ -506,6 +596,8 @@ textarea{
     color: #00acee;
 }
 .Team .card{
+    height: 25rem;
+    width: 17rem;
     border-radius: 5px;
     box-shadow: 5px 5px 15px #ccc;
     transition: all 0.3s ease-in;
@@ -534,6 +626,19 @@ textarea{
 
 
 /** testimonial **/
+.testimonial-area .testimonial-header{
+    font-size: 31px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 55px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    color: #5271a3;
+    font-family: 'Krona One', sans-serif;
+}
+
+
 .testimonial-info{
     margin-top: 50px;
 }
@@ -552,7 +657,6 @@ textarea{
 }
 .testimonial-info li{
     width: 30px;
-    /*height: 30px;*/
     background: #262626;
     border-radius: 50%;
     text-align: center;
@@ -631,6 +735,19 @@ blockquote:after{content: close-quote;}
 }
 
 /** blog part **/
+.latest-news-area .headline{
+    font-size: 31px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 55px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    color: #5271a3;
+    font-family: 'Krona One', sans-serif;
+}
+
+
 
 .latest-news-area{
     padding: 2rem 0rem;
@@ -674,21 +791,16 @@ blockquote:after{content: close-quote;}
  }
 
 
- /** footer section **/
- section {
-    padding: 60px 0;
-}
 
 section .section-title {
     text-align: center;
     color: #007b5e;
-    margin-bottom: 50px;
     text-transform: uppercase;
 }
 #footer {
+    padding-top: 20px;
     background: #07092C !important;
-    height: 450px !important;
-    margin-bottom: 0 !important;
+    height: 100;
 }
 #footer h5{
 	padding-left: 10px;
