@@ -1,4 +1,93 @@
 
+/*body {
+  	font-family: 'Lato', sans-serif;
+  	font-weight: 400;
+  	font-size: 16px;
+  	line-height: 1.7;
+  	color: #eee;
+}*/
+
+.header {
+  	height: 100vh;
+  	background-image: 
+	 linear-gradient(to right bottom, 
+     rgba(76, 216, 255, 0.8),
+     rgba(30, 108, 217, 0.8)),
+     url('../img/training-5069846.jpg');
+  	
+	background-size: cover;
+  	background-position: top;
+  	position: relative;
+
+  	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+.header .brand-box {
+  	position: absolute;
+  	top: 40px;
+  	left: 40px;
+}
+
+.header .brand { font-size: 20px; }
+
+.header .text-box {
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+}
+
+.header .heading-primary {
+  	color: #fff;
+  	text-transform: uppercase;
+
+  	backface-visibility: hidden;
+  	margin-bottom: 30px;
+}
+
+.header .heading-primary-main {
+  	display: block;
+  	font-size: 26px;
+  	font-weight: 400;
+  	letter-spacing: 5px;
+}
+
+.header .heading-primary-sub {
+  	display: block;
+  	font-size: 18px;
+  	font-weight: 700;
+  	letter-spacing: 7.4px;
+}
+
+.header .btn:link,
+.header .btn:visited {
+  	text-transform: uppercase;
+  	text-decoration: none;
+  	padding: 10px 20px;
+  	display: inline-block;
+  	border-radius: 100px;
+  	transition: all .2s;
+  	position: relative;
+}
+
+.header .btn:hover {
+  	transform: translateY(-3px);
+  	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.header .btn:active {
+  	transform: translateY(-1px);
+  	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header .btn-white {
+  /*	background-color: #fff;*/
+    background-color: #FF4933;
+  	color: white;
+	font-size: 14px;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
 html,body{
@@ -133,6 +222,7 @@ html,body{
     color: white;
     font-weight: 700;
     text-shadow:  2px 2px slategray;
+ ;
 }
 .banner_text h6{
     font-size: 16px;
@@ -190,12 +280,7 @@ list-style-type: none;
     line-height: 30px;
     text-align: center;
 }
-/*.card{
-    box-shadow: 
-       inset 0 -3em 3em rgba(0,0,0,0.1), 
-             0 0  0 2px rgb(255,255,255),
-             0.3em 0.3em 1em rgba(0,0,0,0.3);
-}*/
+
 .snd-ftr-items{
     margin-top: 50px !important;
 }
@@ -306,18 +391,18 @@ list-style-type: none;
 
 
 .service-part{
-    height: 700px;
+    height: 730px;
     background: #F6F2F1;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .tabs{
     position: absolute;
-    margin-top: 8%;
-    margin-left: 0%;
-    margin-bottom: 0%;
+    align-content: center;
     width: 85%;
+    border-radius: 10px;
+    margin-top: 10%;
     height: 500px;
-    padding: 30px 20px;
+    /*padding: 30px 20px;*/
     box-shadow: 5px 5px 10px 5px #ccc;
     overflow: hidden;
 }
