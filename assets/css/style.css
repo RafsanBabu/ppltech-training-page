@@ -1,11 +1,4 @@
 
-/*body {
-  	font-family: 'Lato', sans-serif;
-  	font-weight: 400;
-  	font-size: 16px;
-  	line-height: 1.7;
-  	color: #eee;
-}*/
 
 .header {
   	height: 100vh;
@@ -17,8 +10,7 @@
   	
 	background-size: cover;
   	background-position: top;
-  	position: relative;
-
+    position: relative;
   	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
@@ -391,20 +383,17 @@ list-style-type: none;
 
 
 .service-part{
-    height: 730px;
+    height: auto;
     background: #F6F2F1;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .tabs{
-    position: absolute;
-    align-content: center;
-    width: 85%;
+    width: 100%;
     border-radius: 10px;
-    margin-top: 10%;
     height: 500px;
     /*padding: 30px 20px;*/
     box-shadow: 5px 5px 10px 5px #ccc;
-    overflow: hidden;
+    
 }
 .tab-header {
     float: left;
@@ -441,6 +430,7 @@ list-style-type: none;
     position: relative;
     height: 100%;
     overflow: hidden;
+
 }
 
 .tabs .tab-content img{
@@ -485,15 +475,12 @@ list-style-type: none;
     top: 0px;
 }
 
-.tabs .tab-indicator{
-    position: absolute;
+/*.tabs .tab-indicator{
     width: 5px;
     height: 50px;
     background: #FF4933;;
-    left: 30%;
-    top: 80px;
     transition: all 500ms ease-in-out;
-}
+}*/
 
 /** contact section **/
 .contact-form-part{
