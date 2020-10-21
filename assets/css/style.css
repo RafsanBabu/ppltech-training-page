@@ -1,6 +1,5 @@
-<style>
+
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-</style>
 
 html,body{
     max-width: 100%;
@@ -152,33 +151,19 @@ html,body{
     font-size: 44px;
 }
 
-/**partner area**/
-
-.trust-item li{
-    text-align: left;
-   padding-left: 20px;
-   padding-right: 20px;
-  padding-top: 10px;
-}
 ul{
 list-style-type: none;
 }
-ul li p{
-    text-align: left !important;
-    font-size: 15px;
-    font-weight: 400;
-}
+
 
 .our-features{
-    padding-top: 30px;
-    padding-bottom: 30px;
     background-color: #F6F2F1;
 }
 
 .our-features .card{
     margin-left: auto;
     margin-right: 50px;
-    height: 20rem;
+    height: 18rem;
     width: 15rem;
 }
 .our-features .features-headline{
@@ -250,7 +235,7 @@ ul li p{
     cursor: pointer;
 }
 .courses-part .card:hover .card-img-top{
-    opacity: 0;
+    opacity: .2;
   }
 
 .courses-part .card:hover .middle{
@@ -282,7 +267,6 @@ ul li p{
     margin-right: 50px;
     height: 20rem;
     width: 15rem;
-    /*margin-right: 30px;*/
     box-shadow: 1px solid lightslategray;
 }
 .courses-part .card .card-img-top{
@@ -404,7 +388,6 @@ ul li p{
 .tabs .tab-content >div{
     position: absolute;
     text-align: center;
-    /*padding: 40px 20px;*/
     top: -200%;
     /*transition: all 500ms ease-in-out;*/
 }
@@ -433,7 +416,6 @@ ul li p{
     
     background-size: cover;
     background-position: center center;
-    /*background-color: rgba(255, 255, 255, 0.486);*/
     background-attachment: fixed;
     background-blend-mode: overlay;
     padding-bottom: 2%;
@@ -453,9 +435,16 @@ ul li p{
     background-color: #00000082;
     opacity: 1;
     background-position: center center;
+    border-radius: 10px;
 }
 .contactForm h2{
-    color: cornsilk;
+   font-size: 25px;
+    font-weight: 400;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-family: 'Krona One', sans-serif;
 }
 .formBox .inputBox span{
     color: white;
@@ -553,13 +542,7 @@ textarea{
 
 
 
-.Team{
-    margin: 0;
-    padding: 0;
-    padding-bottom: 20px;
-    padding-top: 20px;
-   
-}
+
 
 .Team .team-headline{
     font-size: 31px;
@@ -569,7 +552,7 @@ textarea{
     margin-top: 20px;
     text-align: center;
     width: 100%;
-    color: #5271a3;
+    color: #5271a3 !important;
     font-family: 'Krona One', sans-serif;
 }
 
@@ -656,7 +639,6 @@ textarea{
     
 }
 .testimonial-info li{
-    width: 30px;
     background: #262626;
     border-radius: 50%;
     text-align: center;
@@ -664,7 +646,7 @@ textarea{
 }
 .testimonial-info li a{
     color: #fff;
-    padding: 7px 3px;
+    padding: 7px 5px;
 }
 .testimonial-info p{
     margin: 40px 0;
@@ -707,35 +689,8 @@ textarea{
 }
 blockquote:before{content: open-quote;}
 blockquote:after{content: close-quote;}
-/** featured-category-section **/
-.feature-course-headline h3{
-    display: inline-block;
-    font-size: 15px;
-    font-weight: 600;
-}
-.citem{
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-.feature-course-item{
-    margin-top: 30px;
-
-}
-.feature-course-item p{
-    display: inline-block;
-    width: 100%;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 2.31;
-    color: #393d47;
-    margin: 0;
-}
-.category-feature{
-    border-bottom: 2px solid #a9a9a9;
-}
-
 /** blog part **/
-.latest-news-area .headline{
+.latest-news-area .headlines{
     font-size: 31px;
     font-weight: 600;
     display: inline-block;
@@ -750,7 +705,7 @@ blockquote:after{content: close-quote;}
 
 
 .latest-news-area{
-    padding: 2rem 0rem;
+   /* padding: 2rem 0rem;*/
     background-attachment: fixed;
   }
 .latest-news-area .card{
@@ -855,6 +810,7 @@ section .section-title {
     font-weight: 700;
 }
 .quick-link{
+    padding-top: 30px;
     border-bottom: 1px solid #ffffff;
 }
 
